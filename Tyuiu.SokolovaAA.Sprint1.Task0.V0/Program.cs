@@ -35,9 +35,9 @@ namespace Tyuiu.SokolovaAA.Sprint1.Task0.V0
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(DataService.Calc(1, 4));
+            Console.WriteLine(ds.Calculate());
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
