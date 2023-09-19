@@ -8,11 +8,11 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.SokolovaAA.Sprint1.Task0.V0.Lib
 {
-    public class DataService : ISprint1Task0V0
+    public class DataService 
     {
-        public double Calculate()
+        public static int Calc( int FirstNum, int SecondNum)
         {
-            return 10 / (2 + 3);
-;        }
+            return (FirstNum + SecondNum) * 5;
+        }
     }
 }

@@ -7,11 +7,14 @@ namespace Tyuiu.SokolovaAA.Sprint1.Task0.V0.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression()
+        public void CheckCalc()
         {
-            DataService ds = new DataService();
-            var res = ds.Calculate();
-            Assert.AreEqual(2, res);
-        }
+            int FirstNum = 1;
+            int SecondNum = 4;
+
+            int res = DataService.Calc(FirstNum, SecondNum);
+
+            Assert.AreEqual(15, res);
+        }   
     }
 }

@@ -20,24 +20,24 @@ namespace Tyuiu.SokolovaAA.Sprint1.Task0.V0
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнила: Соколова Анастасия Александровна | АСОиУб-23-3               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выражение 10 / (2 + 3)            *");
+            Console.WriteLine("* Написать программу, которая вычисляет выражение 3*(1+4)                 *");
             Console.WriteLine("* и печатает резултат на экране                                           *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 10 / (2 + 3)                                                            *");
+            Console.WriteLine("* 3*(1+4)                                                                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine(DataService.Calc(1,4));
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
